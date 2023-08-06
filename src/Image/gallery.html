@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>JavaScript_Gallery</title>
+</head>
+<style>
+	body{
+		background: #222;
+		margin-top: 20px;
+		font-family: arial;
+		color: white;
+	}
+	.thumbnails img{
+		height: 80px;
+		border: 4px solid #555;
+		padding: 1px;
+		margin: 0 10px 10px 0;
+	}
+	.thumbnails img:hover{
+		border: 4px solid #00ccff;
+	}
+	.preview img{
+		border: 4px solid #444;
+		padding: 1px;
+		width: 150px;
+	}
+</style>
+<body>
+	<div id="container" align="center">
+		<h1>My Web Page Gallery</h1>
+		<br />
+		<div class="preview" align="center">
+			<img onmouseover="preview.src=Image5.src" name="Image5" src="Image5.jpg" />
+			<img onmouseover="preview.src=Image1.src" name="Image1" src="Image1.jpg" />
+			<img onmouseover="preview.src=Image2.src" name="Image2" src="Image2.jpg" />
+			<img onmouseover="preview.src=Image3.src" name="Image3" src="Image3.jpg" />
+			<img onmouseover="preview.src=Image4.src" name="Image4" src="Image4.jpg" />
+			<img onmouseover="preview.src=Image6.src" name="Image6" src="Image6.jpg" />
+			<img onmouseover="preview.src=Image7.src" name="Image7" src="Image7.jpg" />
+		</div>
+		<br />
+		<div class="preview" align="center">
+			<img name="preview" src="C:\Users\Lenovo\Desktop\Image\Image5.jpg /">
+		</div>
+	</div>
+</body>
+</html>
